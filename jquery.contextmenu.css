@@ -99,3 +99,9 @@
   z-index: 0;
 }
 
+#mythingy{
+ background-image:url(../og_image.png);
+ height:500px;
+ width:500px;
+
+}
