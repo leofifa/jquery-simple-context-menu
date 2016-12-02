@@ -2,7 +2,7 @@ $(function() {
         $('#mythingy').contextPopup({
           title: 'Meu Menu Popup',
           items: [
-            {label:'Algum Item',     icon:'icons/shopping-basket.png',             action:function() { alert('clicked 1') } },
+            {label:'Algum Item',     icon:'icons/shopping-basket.png',             action:function() { window.open("http://mackenzie.br"); } },
             {label:'Outra Coisa', icon:'icons/receipt-text.png',                action:function() { alert('clicked 2') } },
             {label:'Blá Blá',     icon:'icons/book-open-list.png',              action:function() { alert('clicked 3') } },
             null, // divider
