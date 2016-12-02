@@ -3,26 +3,8 @@
   <head>
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="../jquery.contextmenu.js"></script>
+    <script src="../menu.js"></script>
     <link rel="stylesheet" href="../jquery.contextmenu.css">
-    <script>
-      $(function() {
-        $('#mythingy').contextPopup({
-          title: 'Meu Menu Popup',
-          items: [
-            {label:'Algum Item',     icon:'icons/shopping-basket.png',             action:function() { alert('clicked 1') } },
-            {label:'Outra Coisa', icon:'icons/receipt-text.png',                action:function() { alert('clicked 2') } },
-            {label:'Blá Blá',     icon:'icons/book-open-list.png',              action:function() { alert('clicked 3') } },
-            null, // divider
-            {label:'Ovelha',         icon:'icons/application-monitor.png',         action:function() { alert('clicked 4') } },
-            {label:'Queijo',        icon:'icons/bin-metal.png',                   action:function() { alert('clicked 5') } },
-            {label:'Bacon',         icon:'icons/magnifier-zoom-actual-equal.png', action:function() { alert('clicked 6') } },
-            null, // divider
-            {label:'Em Diante',       icon:'icons/application-table.png',           action:function() { alert('clicked 7') } },
-            {label:'Vibra',      icon:'icons/cassette.png',                    action:function() { alert('clicked 8') } }
-          ]
-        });
-      });
-    </script>
   </head>
   <body style="background-color:#7a7a7a; color:#ffffff; font-family:arial,sans-serif">
 
